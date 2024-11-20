@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Task"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:layout_marginVertical="20dp"
+            android:background="@android:color/darker_gray"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:background="@android:color/darker_gray"
+            android:hint="Tanggal"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:inputType="date"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/_kategori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kategori"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:background="@android:color/darker_gray"
+            android:layout_marginVertical="20dp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:hint="Deskripsi"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:background="@android:color/darker_gray"
+            android:padding="8dp"
+            android:layout_marginVertical="25dp" />
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#125F03"
+            android:text="SIMPAN"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
